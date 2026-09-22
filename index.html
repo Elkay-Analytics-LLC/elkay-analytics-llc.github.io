@@ -1,14 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Elkay Analytics LLC</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elkay Analytics LLC | Logistics Advisory & Spatial Data Analytics</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #ffffff;
+            padding: 50px 20px;
+            text-align: center;
+            border-radius: 8px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.8em;
+            letter-spacing: 1px;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.3em;
+            color: #bdc3c7;
+        }
+        section {
+            background: #ffffff;
+            padding: 35px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            margin-top: 0;
+            font-size: 1.8em;
+        }
+        p {
+            font-size: 1.1em;
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 20px;
+        }
+        .service-card {
+            background: #fdfdfd;
+            padding: 25px;
+            border-left: 5px solid #3498db;
+            border-radius: 6px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        .service-card h3 {
+            margin-top: 0;
+            color: #2980b9;
+            font-size: 1.3em;
+        }
+        .contact-info {
+            background-color: #ecf0f1;
+            padding: 20px;
+            border-radius: 6px;
+            text-align: center;
+            font-size: 1.2em;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-  <h1>Elkay Analytics LLC</h1>
-  <h2>Logistics Advisory & Spatial Data Analytics</h2>
-  <p>Providing expert logistics consulting powered by advanced spatial data engineering.</p>
-  <p>website still under construction<p>
-  <p>Contact: contact@elkayanalytics.com</p>
+
+    <header>
+        <h1>Elkay Analytics LLC</h1>
+        <p>Logistics Advisory & Spatial Data Analytics</p>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Elkay Analytics provides expert logistics consulting powered by advanced spatial data engineering. We specialize in transforming complex operational networks into actionable insights. From evaluating procurement pipelines and contractor bids to designing resilient supply chain networks, we help commercial enterprises streamline their overall logistics and field operations.</p>
+    </section>
+
+    <section id="capabilities">
+        <h2>Core Capabilities</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Strategic Logistics Advisory</h3>
+                <p>Comprehensive analysis of procurement pipelines, operational malleability, and supply chain networks to engineer flexible, dynamic solutions tailored to heavy commercial transit and fleet management.</p>
+            </div>
+            <div class="service-card">
+                <h3>Geospatial Data Engineering</h3>
+                <p>Building robust ETL pipelines to extract, clean, and process complex geographic and operational data, bridging the gap between raw infrastructure constraints and strategic execution.</p>
+            </div>
+            <div class="service-card">
+                <h3>Network & Route Optimization</h3>
+                <p>Deploying advanced spatial algorithms and custom cost-matrices to generate time- and distance-optimized operational routing, actively mitigating bottlenecks and reducing overhead.</p>
+            </div>
+            <div class="service-card">
+                <h3>Spatial Analytics & Visualization</h3>
+                <p>Delivering high-contrast, professional-grade visual deliverables and strategic mapping using industry-standard tools. We translate complex operational theory into clear, actionable stakeholder presentations.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <p>Ready to optimize your logistical operations? Reach out to discuss how our data-driven advisory services can drive efficiency for your next project.</p>
+        <div class="contact-info">
+            <p><strong>Email:</strong> <a href="mailto:contact@elkayanalytics.com">contact@elkayanalytics.com</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Elkay Analytics LLC. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
